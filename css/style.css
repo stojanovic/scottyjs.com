@@ -1,0 +1,103 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "Open Sans", sans-serif;
+}
+
+h1 {
+  display: block;
+  overflow: hidden;
+  margin: 0;
+}
+
+h1 > img {
+  display: block;
+  margin: 50px auto 0;
+  width: 50%;
+  max-width: 300px;
+}
+
+h2 {
+  margin: 0 auto;
+  width: 80%;
+  max-width: 800px;
+  color: #293340;
+  font-size: 18px;
+  font-weight: normal;
+  text-align: center;
+}
+
+.divider {
+  display: block;
+  overflow: hidden;
+  margin: 50px auto;
+  color: darkcyan;
+  text-align: center;
+}
+
+.intro {
+  display: block;
+  overflow: hidden;
+  margin: 0 auto 40px;
+  max-width: 680px;
+  width: 90%;
+}
+
+.button {
+  display: inline-block;
+  margin: 10px 20px;
+  padding: 0 20px;
+  width: 180px;
+  height: 42px;
+  line-height: 42px;
+  border: 1px solid darkcyan;
+  border-radius: 8px;
+  box-sizing: border-box;
+  color: darkcyan;
+  text-decoration: none;
+  text-transform: uppercase;
+  transition: all .3s ease-in;
+}
+
+.button:hover {
+  color: darkmagenta;
+  border: 1px solid darkmagenta;
+}
+
+.button-container {
+  margin: 40px auto;
+  text-align: center;
+}
+
+pre {
+  display: block;
+  overflow: hidden;
+  margin: 40px auto;
+  padding: 20px;
+  width: 80%;
+  max-width: 400px;
+  background: lightcyan;
+  color: darkcyan;
+  text-align: center;
+}
+
+p {
+  margin: 10px auto;
+  width: 80%;
+  max-width: 800px;
+  color: #444;
+}
+
+p.center {
+  text-align: center;
+}
+
+p a {
+  color: darkcyan;
+  text-decoration: none;
+  transition: all .3s ease-in;
+}
+
+p a:hover {
+  color: darkmagenta;
+}
